@@ -27,7 +27,7 @@ class NicoAgent:
         prompt = f"Provide a weather forecast for {location} for the {period}."
         response = generate_response_local(prompt)
         return response
-
+ 
 # User interaction and getting a forecast from Nico
 def ask_for_weather():
     location = input("Enter the location for the weather forecast: ")
