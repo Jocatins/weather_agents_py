@@ -2,7 +2,7 @@ from autogen import Agent
 from weather_agent import WeatherAgent
 from chat_agent import ChatAgent
 
-API_KEY = 'ba430379809d45632fbe4e51200ac5f8'
+# API_KEY = 'ba430379809d45632fbe4e51200ac5f8'
 
 class GeneralAgent(Agent):
     def __init__(self, agent_name, llm, api_key):

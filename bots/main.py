@@ -4,7 +4,7 @@ from general_agent import GeneralAgent
 from weather_agent import WeatherAgent
 
 # Initialize variables
-API_KEY = 'ba430379809d45632fbe4e51200ac5f8'
+API_KEY = ''
 lm_server_url = "http://localhost:1234" 
 local_llm = CustomLLM(lm_server_url)
 
